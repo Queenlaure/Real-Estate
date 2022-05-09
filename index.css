@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px 0 10px;
+    margin: 20px 50px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 5px;
+}
+
+.logo p {
+    font-weight: bold;
+    color: #4f8197;
+}
+.link  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    margin-left: auto;
+}
+
+ .link p {
+    margin: 0 10px 0 10px;
+   
+} 
+
+
+
+.contact {
+    background-color: #74a2b6;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 10px;
+}
+
+.sub-container {
+    display: flex;
+    background-image: url('./pics/Estate.png');
+    background-size: cover;
+    height: 50vh;
+    margin: 0 70px 450px 70px;
+    border-radius: 50px;
+    flex-direction: column;
+}
+
+.sub-container img {
+ height: 170%;
+}
+
+.description {
+    width: 55%;
+    padding: 7px 70px;
+    position:absolute;
+    margin-top: 10%;
+    
+}
+.portion img{
+    height:40%;
+}
+
+.description h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.description p {
+    color: grey;
+    font-weight: 500;
+    font-size: small;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.portion {
+     display: flex; 
+    flex-direction: row;
+     gap: 10px;
+    margin-bottom: 1px;
+} 
+
+.portion img {
+    width: 20px;
+}
+
+.dollar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    font-size: x-small;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #5e8ea2;
+    color: white;
+}
+
+.value {
+    color: #5e8ea2;
+    font-weight: bold;
+    font-size: small;
+    width: 50px;
+}
+
+.text {
+    color: grey;
+    font-size: small;
+}
+
+span {
+    color: #5e8ea2;
+}
+
+.subsection {
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+     margin: 0 auto;
+    margin-top: -10%;
+    margin-left: 50px;
+}
+
+.subsection-tabs {
+    display: flex;
+    flex-direction: row;
+    background-color: #7bb4c7;
+    width: max-content;
+    border-radius: 10px 10px 0 0;
+    color: grey;
+    font-weight: 500;
+}
+
+.subsection-tabs .rent {
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    color: grey;
+    font-weight: 500;
+}
+
+.subsection-tabs div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 35px;
+}
+
+.subsection-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0 10px 10px 10px;
+    padding: 30px 35px;
+    box-shadow: 3px 5px 8px rgb(226, 226, 226);
+}
+
+.property {
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+}
+
+.property-title {
+    font-size: small;
+    color: gray;
+    font-weight: 500;
+}
+
+.property-label {
+    font-size: large;
+    font-weight: bold;
+    color: #5e8ea2;
+}
+
+.search {
+    background-color: #5e8ea2;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+}
+
+.available-services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 70px 100px 70px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 8px rgb(226, 226, 226);
+    padding: 20px 20px;
+}
+
+.service .factor {
+    display: flex;
+    flex-direction: row;
+}
+
+.factor {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 0 20px;
+    /* padding: 10px 0; */
+}
+
+.factor .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5e8ea2;
+    height: 40px;
+    width: 60px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+}
+
+.factor .icon-title {
+    display: flex;
+    width: 180px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: #5e8ea2;
+}
+
+.service p {
+    color: grey;
+    font-weight: 500;
+    font-size: small;
+}
+
+.part2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.part2 h1 {
+    color: #5e8ea2;
+}
+
+.part2 p {
+    color: #243339;
+}
+
+.part3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 70px 200px 70px;
+}
+
+.part3 .feature {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    box-shadow: 3px 5px 8px rgb(226, 226, 226);
+    border-radius: 10px;
+}
+
+.part3 .feature-img {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.feature-img .btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin-top: -150px;
+}
+
+.btns .btn1 {
+    background-color: #5e8ea2;
+    padding: 5px 10px;
+    font-size: small;
+    border-radius: 5px;
+}
+
+.btns .btn2 {
+    background-color: #415863;
+    padding: 5px 10px;
+    font-size: small;
+    border-radius: 5px;
+}
+
+.apartment {
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.456);
+    border-left: 1px solid rgba(128, 128, 128, 0.456);
+    border-right: 1px solid rgba(128, 128, 128, 0.456);
+}
+
+.apartment .room {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.apartment-title {
+    color: #5e8ea2;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.apartment-area {
+    color: grey;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-radius: 0 0 10px 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.456);
+    border-left: 1px solid rgba(128, 128, 128, 0.456);
+    border-right: 1px solid rgba(128, 128, 128, 0.456);
+}
+
+.price img {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.room .component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.component img {
+    max-height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.component p {
+    font-size: small;
+    color: gray;
+}
+.footer {
+    background-color: #5e8ea2;
+    text-align: center;
+    padding: 20px 130px;
+    color: white;
+}
